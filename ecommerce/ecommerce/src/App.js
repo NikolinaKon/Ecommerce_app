@@ -5,12 +5,13 @@ import { Navbar } from './components/nabvar';
 import {Shop} from "./pages/shop/shop";
 import {Cart} from "./pages/cart/cart";
 import {Contact} from "./pages/contact/contact";
+import { ShopContextProv } from './context/shop-context';
 
 function App() {
   return (
     <div className="App">
      
-      
+      <ShopContextProv>
       <Router>
         <Navbar />
         <Routes> 
@@ -21,6 +22,7 @@ function App() {
 
         </Routes>
       </Router>
+      </ShopContextProv>
     </div>
   );
 }
