@@ -8,13 +8,13 @@ import p6 from './assets/MuffinsFruit.jpg';
 export const PRODUCTS = [
     {
         id:1,
-        productName: "Vocna pita",
+        productName: "Voćna pita",
         price: 99.99,
         productImage: p1,
     },
     {
         id:2,
-        productName: "Vocni tart",
+        productName: "Voćni tart",
         price: 159.99,
         productImage: p2,
     },
@@ -26,18 +26,18 @@ export const PRODUCTS = [
     },
     {
         id:4,
-        productName: "Mafin - cokolada",
+        productName: "Mafin - čokolada",
         price: 119.99,
         productImage: p4,
     },
     {
-        id:3,
+        id:5,
         productName: "Mafin - kokos",
         price: 129.99,
         productImage: p5,
     },
     {
-        id:3,
+        id:6,
         productName: "Mafin - malina, kupina",
         price: 119.99,
         productImage: p6,
